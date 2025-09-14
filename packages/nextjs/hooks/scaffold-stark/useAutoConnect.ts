@@ -1,3 +1,4 @@
+"use client";
 import { useEffect, useRef } from "react";
 import { useConnect } from "@starknet-react/core";
 import { useReadLocalStorage } from "usehooks-ts";

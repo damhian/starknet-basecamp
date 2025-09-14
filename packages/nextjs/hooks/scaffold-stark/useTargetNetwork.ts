@@ -1,3 +1,4 @@
+"use client";
 import { useEffect } from "react";
 import { useAccount } from "~~/hooks/useAccount";
 import scaffoldConfig from "~~/scaffold.config";

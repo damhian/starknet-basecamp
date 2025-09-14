@@ -1,3 +1,4 @@
+"use client";
 import { useAccount } from "~~/hooks/useAccount";
 import {
   AccountInterface,

@@ -8,5 +8,10 @@
                 "tamasfe.even-better-toml"
             ]
         }
-    }
+    },
+    "containerEnv": {
+    "CHOKIDAR_USEPOLLING": "true",
+    "WATCHPACK_POLLING": "true",
+    "TURBOPACK_WATCH_POLL": "1000" 
+  }
 }
