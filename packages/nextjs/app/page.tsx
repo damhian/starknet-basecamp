@@ -29,13 +29,14 @@ const Home = () => {
         <div className="mt-6 flex gap-4">
           <IncreaseCounter />
           <DecreaseCounter ownerAddress={ownerAddressStr} currentUserAddress={currentUserAddressStr} />
-        </div>
-        <div className="mt-6">
           <SetCounter ownerAddress={ownerAddressStr} currentUserAddress={currentUserAddressStr} />
         </div>
-        <div className="mt-6">
+        <div className="mt-6 flex gap-4">
           <ResetCounter ownerAddress={ownerAddressStr} currentUserAddress={currentUserAddressStr} />
         </div>
+        {/* <div className="mt-6">
+          
+        </div> */}
       </CounterProvider>
       <CounterEvents />
     </div>
